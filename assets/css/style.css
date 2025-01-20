@@ -226,6 +226,7 @@ a {
   margin: auto;
   color: var(--disc-dark);
   text-align: left;
+  padding-bottom: 8rem;
   h2 {
     width: 70%;
     font-size: 3rem;
@@ -252,6 +253,7 @@ a {
   margin: auto;
   color: var(--disc-dark);
   text-align: center;
+  padding-bottom: 2rem;
   h2 {
     font-size: 3rem;
     padding-bottom: 2rem;
