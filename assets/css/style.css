@@ -1,0 +1,189 @@
+/*utilities*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.debug {
+  header {
+    background-color: cyan;
+    .site_header {
+      min-height: 2rem;
+      background-color: yellow;
+    }
+  }
+  main {
+    .jumbotron_container {
+      min-height: 20rem;
+      background-color: blue;
+      #jumbotron {
+        min-height: 20rem;
+        background-color: purple;
+      }
+    }
+
+    .feature_box_container {
+      background-color: black;
+    }
+
+    .feature_box_container + .box2 {
+      background-color: gray;
+    }
+    .feature_boxes {
+      min-height: 22rem;
+    }
+
+    .big_box {
+      background-color: aquamarine;
+    }
+
+    .small_box {
+      background-color: pink;
+    }
+
+    #technology_container {
+      background-color: gray;
+      #technology {
+        min-height: 44rem;
+        background-color: green;
+      }
+    }
+  }
+  #site_footer {
+    background-color: darkslategray;
+    #upper_footer {
+      min-height: 22rem;
+      .bigger_footer_area {
+        background-color: salmon;
+      }
+      .smaller_footer_area {
+        background-color: cyan;
+      }
+    }
+    #lower_footer {
+      min-height: 3rem;
+      background-color: turquoise;
+    }
+    #footer_logo,
+    #footer_btn {
+      background-color: palevioletred;
+    }
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.unstyled_list {
+  list-style: none;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: black;
+  }
+}
+
+.container_spacing {
+  padding: 3rem 0;
+}
+
+/*utilities end*/
+
+#header_container {
+  padding: 0.5rem;
+}
+
+.site_header {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  margin: auto;
+
+  a {
+    flex-grow: 1;
+    margin-left: 1rem;
+  }
+
+  ul {
+    flex-grow: 3;
+    justify-content: center;
+  }
+
+  div {
+    flex-grow: 1;
+    text-align: end;
+    margin-right: 1rem;
+  }
+}
+/* HEADER END */
+
+#jumbotron {
+  max-width: 50%;
+  margin: auto;
+}
+
+/* JUMBOTRON END */
+
+.feature_boxes {
+  max-width: 70%;
+  margin: auto;
+}
+
+.big_box {
+  flex-grow: 2;
+}
+
+.small_box {
+  flex-grow: 1;
+}
+
+/*FEATURE BOXES END */
+
+#technology {
+  max-width: 70%;
+  margin: auto;
+}
+
+/*TECHNOLOGY BOX END */
+
+.bigger_footer_area {
+  flex-grow: 2;
+}
+
+.smaller_footer_area {
+  flex-grow: 1;
+}
+
+#upper_footer {
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+#lower_footer {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1, 0rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  border-color: white;
+}
+
+/*FOOTER END */
