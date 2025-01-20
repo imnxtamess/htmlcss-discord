@@ -117,6 +117,23 @@ a {
   vertical-align: text-bottom;
 }
 
+.disc-light_filter {
+  filter: invert(100%) sepia(1%) saturate(93%) hue-rotate(241deg)
+    brightness(117%) contrast(93%);
+}
+
+.wavebg {
+  width: 100%;
+  display: block;
+}
+
+.img-flip {
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
 /*utilities end*/
 
 #header_container {
@@ -155,6 +172,7 @@ a {
   background-image: url("../media/img/jumbo.png");
   background-size: cover;
   min-height: 660px;
+  margin-bottom: 3rem;
 }
 
 #jumbotron {
