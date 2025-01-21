@@ -141,6 +141,7 @@ a {
   width: 100%;
   padding: 1rem;
   background-color: var(--disc-secondary);
+  z-index: 100;
 }
 
 .site_header {
