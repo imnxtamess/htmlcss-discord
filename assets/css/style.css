@@ -137,6 +137,8 @@ a {
 /*utilities end*/
 
 #header_container {
+  position: fixed;
+  width: 100%;
   padding: 1rem;
   background-color: var(--disc-secondary);
 }
